@@ -3,10 +3,6 @@ body {
   background-color: #FFE5D4;
 }
 
-:root {
-  background: #FFE5D4
-}
-
 .navbar {
   background: #68A691;
   height: max-content;
@@ -33,12 +29,17 @@ body {
 .active {
   color: #FFE5D4 !important;
 }
-
+ @media all and (min-width:500px) and (max-width:12623px) {
+  .nav-link{
+    font-size: 4vh !important;
+  }
+ }
 /* Home page */
 .img {
 
-  padding-top: 7vh;
-  width: 30%
+  padding-top: 5vh;
+  width: 30%;
+  height: auto;
 }
 
 .header {
@@ -51,13 +52,17 @@ color: #7c1a4e  ;
   text-align: center;
   width: fit-content;
   background-color: inherit;
-  padding-top: 2vh;
+  padding-top: 7vh;
 }
 
 .home-desc {
   text-align: center;
 }
-
+@media all and (min-width:500px) and (max-width:12623px) {
+  .img{
+    padding-top: .0vh;
+  }
+}
 /* About */
 .about-img {
   width: 0%;
@@ -170,13 +175,13 @@ button{
   bottom: 0;
   width: 100%;
   position: fixed;
+  font-size: x-large;
 }
 
 
 .fa {
   padding-left: 5vh;
   padding-right: 5vh;
-  font-size: 4vh;
 }
 
 .fa-hand-o-right, .fa-hand-o-left{
