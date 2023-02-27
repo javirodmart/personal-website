@@ -1,7 +1,7 @@
 import { Card, Button } from "react-bootstrap"
 function BlogCard({ title, image, description,url }) {
     return (
-        <Card className="blog-card" bg="success" style={{ width: '18rem' }}>
+        <Card className="blog-card" bg="success">
             <Card.Body >
                 <Card.Title>{title}</Card.Title>
             <Card.Img variant="top" src={image} />

@@ -22,23 +22,25 @@ function Contact() {
 
     return (
         <>
-            <form className="form" ref={form} onSubmit={sendEmail}>
+        <div className='login'>
+
+             <form className="form" ref={form} onSubmit={sendEmail}>
                 <h1> Get In Touch!</h1>
-                <label>Name:</label>
-                <input type="text" name="name" />
+                <input placeholder='Name' type="text" name="name" />
                 <br></br>
-                <label>Email:</label>
-                <input type="email" name="email" />
+                <input placeholder='Email' type="email" name="email" />
                 <br></br>
-                <label>Subject:</label>
-                <input type="text" name="subject" />
+
+                <input placeholder='Subject' type="text" name="subject" />
                 <br></br>
-                <label>Message:</label>
-                <textarea name="message" />
+
+                <textarea placeholder='Message' name="message" />
                 <br></br>
                 <input className='send' type="submit" value="Send" />
             </form>
             <h1 className={sent}>{message}</h1>
+        </div>
+           
         </>
     );
 };

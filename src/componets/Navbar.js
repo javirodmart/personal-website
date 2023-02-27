@@ -36,7 +36,7 @@ function NavBar() {
                     Javier Rodriguez
                     <h2>Software Engineer</h2>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle  />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="justify-content-end ms-auto" activeKey="/home">
                         {navInfo.map((item) => (
