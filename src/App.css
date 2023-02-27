@@ -54,19 +54,24 @@ body {
 
   .footer {
     font-size: 9px !important;
-    width: auto !important;
+ 
     text-align: center !important;
     background-color: #75b6a0;
     margin-top: 10px !important;
   }
 
   .blog-card {
-    margin-left: 5% !important;
+    margin-left: 6% !important;
     margin-bottom: 100px !important;
   }
 
   input,.btn-primary,textarea{
     margin-bottom: 20px !important;
+  }
+
+  .navbar{
+   
+    width: fit-content;
   }
 
   a,
@@ -284,7 +289,7 @@ a {
 span,
 a:hover {
   color: #68A691;
-  display: inline-block;
+  
 }
 
 .line-left {
@@ -314,14 +319,14 @@ label{
   color: #541E35 !important;
   margin-bottom: 2.5vh;
 }
-input,.btn-primary,textarea {
+input,textarea {
   border-top-style: hidden !important;
   border-right-style: hidden !important;
   border-left-style: hidden !important;
   border-bottom-style: groove !important;
   background-color: #FFE5D4 !important;
   color:#541E35 !important;
-  margin-bottom: 5px 
+ 
   
 }
 form input[type=submit]{
@@ -331,15 +336,8 @@ form input[type=submit]{
 
 
 
-form input[type=submit]:hover,.btn-primary:hover{
-  background-color: #694F5D !important ;
-  color: #eee !important;
-}
 
-.btn-primary{
-  float: right;
-  margin-right: 30vh;
-}
+
 
 .no-outline:focus {
   outline: none;
